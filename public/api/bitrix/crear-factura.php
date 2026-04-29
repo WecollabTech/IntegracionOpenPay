@@ -7,7 +7,7 @@ header('Content-Type: application/json; charset=utf-8');
 // ======================
 $token = $_GET['token'] ?? '';
 
-if ($token !== 'rm1xmm2go27f7jfw3dsdsd') {
+if ($token !== 'rm1xmm2go27f7jfw3ebactgkc8sjxnow') {
     http_response_code(403);
     exit('INVALID TOKEN');
 }
